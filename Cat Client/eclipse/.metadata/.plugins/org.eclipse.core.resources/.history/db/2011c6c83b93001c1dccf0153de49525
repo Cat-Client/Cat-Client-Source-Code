@@ -1,0 +1,5 @@
+package airclient.event.impl;
+
+import airclient.event.Event;
+
+public class RenderEvent extends Event { }

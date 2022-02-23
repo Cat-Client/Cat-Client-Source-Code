@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRPC"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence.Builder"/>
+    <fullyQualifiedTypeName name="catclient.Client"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.Gui"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="catclient.gui.SplashProgress"/>
+</qualifiedTypeNameHistroy>

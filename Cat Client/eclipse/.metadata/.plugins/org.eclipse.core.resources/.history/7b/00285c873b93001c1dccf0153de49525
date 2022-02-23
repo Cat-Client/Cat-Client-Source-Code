@@ -1,0 +1,28 @@
+package airclient.mods;
+
+import airclient.gui.hud.HUDManager;
+import airclient.mods.impl.armorstatus.ArmorStatusMod;
+import airclient.mods.impl.fps.FPSMod;
+import airclient.mods.impl.keystrokes.KeystrokesMod;
+import airclient.mods.impl.togglesprint.ToggleSprintMod;
+
+public class ModInstances {
+	private static ToggleSprintMod toggleSprintMod;
+	private static ArmorStatusMod armorStatusMod;
+	private static FPSMod fpsMod;
+	private static KeystrokesMod keystrokesMod;
+	
+	public static void register(HUDManager api) {
+		toggleSprintMod = new ToggleSprintMod();
+		api.register(toggleSprintMod);
+		
+		armorStatusMod = new ArmorStatusMod();
+		api.register(armorStatusMod);
+		
+		fpsMod = new FPSMod();
+		api.register(fpsMod);
+		
+		keystrokesMod = new KeystrokesMod();
+		api.register(keystrokesMod);
+	}
+}
